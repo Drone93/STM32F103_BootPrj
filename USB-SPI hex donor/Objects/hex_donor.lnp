@@ -1,0 +1,28 @@
+--cpu Cortex-M3
+".\objects\stm32_delay_asm.o"
+".\objects\tft_spi.o"
+".\objects\stm32_it.o"
+".\objects\hxdonor_main.o"
+".\objects\hw_config.o"
+".\objects\usb_desc.o"
+".\objects\usb_endp.o"
+".\objects\usb_istr.o"
+".\objects\usb_prop.o"
+".\objects\usb_pwr.o"
+".\objects\usb_core.o"
+".\objects\usb_int.o"
+".\objects\usb_mem.o"
+".\objects\usb_regs.o"
+".\objects\usb_sil.o"
+".\objects\usb_init.o"
+".\objects\misc_1.o"
+".\objects\stm32f10x_exti.o"
+".\objects\stm32f10x_gpio.o"
+".\objects\stm32f10x_rcc.o"
+".\objects\stm32f10x_spi.o"
+".\objects\startup_stm32f10x_md.o"
+".\objects\system_stm32f10x.o"
+--strict --scatter ".\Objects\hex_donor.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Listings\hex_donor.map" -o .\Objects\hex_donor.axf

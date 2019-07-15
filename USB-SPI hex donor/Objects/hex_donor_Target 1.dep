@@ -1,0 +1,546 @@
+Dependencies for Project 'hex_donor', Target 'Target 1': (DO NOT MODIFY !)
+F (..\0src\stm32_delay_asm.c)(0x5D08BAE9)(--c99 -c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections -I ..\0inc -I ..\0inc\inc -I ..\STM32_USB_CDC_libs-I.\RTE\Device\STM32F103C8-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\StdPeriph_Driver\inc-D__UVISION_VERSION="525" -D_RTE_ -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o .\objects\stm32_delay_asm.o --omf_browse .\objects\stm32_delay_asm.crf --depend .\objects\stm32_delay_asm.d)
+I (..\0inc\stm32_delay_asm.h)(0x5D08BAE9)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include\stm32f10x.h)(0x58257EBC)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\core_cm3.h)(0x5A0DA24A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599F056E)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\cmsis_version.h)(0x5A0DA24A)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\cmsis_compiler.h)(0x5A0DA24A)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\cmsis_armcc.h)(0x5A0DA24A)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include\system_stm32f10x.h)(0x58257EBC)
+I (.\RTE\Device\STM32F103C8\stm32f10x_conf.h)(0x52FA4230)
+I (.\RTE\_Target_1\RTE_Components.h)(0x5D148620)
+I (..\0inc\inc\stm32f10x_exti.h)(0x5AE46198)
+I (..\0inc\inc\stm32f10x_gpio.h)(0x5AE46198)
+I (..\0inc\inc\stm32f10x_rcc.h)(0x5AE46198)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\StdPeriph_Driver\inc\stm32f10x_spi.h)(0x52FA3F80)
+I (..\0inc\inc\misc.h)(0x5AE46198)
+F (..\0src\TFT_SPI.c)(0x5D132FB8)(--c99 -c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections -I ..\0inc -I ..\0inc\inc -I ..\STM32_USB_CDC_libs-I.\RTE\Device\STM32F103C8-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\StdPeriph_Driver\inc-D__UVISION_VERSION="525" -D_RTE_ -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o .\objects\tft_spi.o --omf_browse .\objects\tft_spi.crf --depend .\objects\tft_spi.d)
+I (..\0inc\stm32_top_header.h)(0x5D1205C1)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x599F056C)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x599F056E)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include\stm32f10x.h)(0x58257EBC)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\core_cm3.h)(0x5A0DA24A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599F056E)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\cmsis_version.h)(0x5A0DA24A)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\cmsis_compiler.h)(0x5A0DA24A)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\cmsis_armcc.h)(0x5A0DA24A)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include\system_stm32f10x.h)(0x58257EBC)
+I (.\RTE\Device\STM32F103C8\stm32f10x_conf.h)(0x52FA4230)
+I (.\RTE\_Target_1\RTE_Components.h)(0x5D148620)
+I (..\0inc\inc\stm32f10x_exti.h)(0x5AE46198)
+I (..\0inc\inc\stm32f10x_gpio.h)(0x5AE46198)
+I (..\0inc\inc\stm32f10x_rcc.h)(0x5AE46198)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\StdPeriph_Driver\inc\stm32f10x_spi.h)(0x52FA3F80)
+I (..\0inc\inc\misc.h)(0x5AE46198)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\StdPeriph_Driver\inc\stm32f10x_i2c.h)(0x52FA3F80)
+I (..\0inc\stm32_delay_asm.h)(0x5D08BAE9)
+I (..\0inc\TFT_SPI.h)(0x5D08BAE9)
+I (..\0inc\TFT_alphabet.h)(0x5D08BAE9)
+F (..\0src\src\stm32_it.c)(0x5AE46198)(--c99 -c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections -I ..\0inc -I ..\0inc\inc -I ..\STM32_USB_CDC_libs-I.\RTE\Device\STM32F103C8-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\StdPeriph_Driver\inc-D__UVISION_VERSION="525" -D_RTE_ -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o .\objects\stm32_it.o --omf_browse .\objects\stm32_it.crf --depend .\objects\stm32_it.d)
+I (..\STM32_USB_CDC_libs\hw_config.h)(0x5AE46196)
+I (..\STM32_USB_CDC_libs\platform_config.h)(0x5AE46196)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include\stm32f10x.h)(0x58257EBC)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\core_cm3.h)(0x5A0DA24A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599F056E)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\cmsis_version.h)(0x5A0DA24A)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\cmsis_compiler.h)(0x5A0DA24A)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\cmsis_armcc.h)(0x5A0DA24A)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include\system_stm32f10x.h)(0x58257EBC)
+I (.\RTE\Device\STM32F103C8\stm32f10x_conf.h)(0x52FA4230)
+I (.\RTE\_Target_1\RTE_Components.h)(0x5D148620)
+I (..\0inc\inc\stm32f10x_exti.h)(0x5AE46198)
+I (..\0inc\inc\stm32f10x_gpio.h)(0x5AE46198)
+I (..\0inc\inc\stm32f10x_rcc.h)(0x5AE46198)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\StdPeriph_Driver\inc\stm32f10x_spi.h)(0x52FA3F80)
+I (..\0inc\inc\misc.h)(0x5AE46198)
+I (..\0inc\inc\stm32f10x_pwr.h)(0x5AE46198)
+I (..\STM32_USB_CDC_libs\usb_type.h)(0x5AE46196)
+I (..\STM32_USB_CDC_libs\usb_conf.h)(0x5D271E5C)
+I (..\0inc\inc\stm32_it.h)(0x5AE46198)
+I (..\STM32_USB_CDC_libs\usb_lib.h)(0x5D259463)
+I (..\STM32_USB_CDC_libs\usb_regs.h)(0x5AE46196)
+I (..\STM32_USB_CDC_libs\usb_def.h)(0x5AE46196)
+I (..\STM32_USB_CDC_libs\usb_core.h)(0x5AE46196)
+I (..\STM32_USB_CDC_libs\usb_init.h)(0x5AE46196)
+I (..\STM32_USB_CDC_libs\usb_sil.h)(0x5AE46196)
+I (..\STM32_USB_CDC_libs\usb_mem.h)(0x5AE46196)
+I (..\STM32_USB_CDC_libs\usb_int.h)(0x5AE46196)
+I (..\STM32_USB_CDC_libs\usb_istr.h)(0x5AE46196)
+F (.\hxdonor_main.c)(0x5D286BD1)(--c99 -c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections -I ..\0inc -I ..\0inc\inc -I ..\STM32_USB_CDC_libs-I.\RTE\Device\STM32F103C8-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\StdPeriph_Driver\inc-D__UVISION_VERSION="525" -D_RTE_ -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o .\objects\hxdonor_main.o --omf_browse .\objects\hxdonor_main.crf --depend .\objects\hxdonor_main.d)
+I (..\0inc\stm32_delay_asm.h)(0x5D08BAE9)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include\stm32f10x.h)(0x58257EBC)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\core_cm3.h)(0x5A0DA24A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599F056E)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\cmsis_version.h)(0x5A0DA24A)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\cmsis_compiler.h)(0x5A0DA24A)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\cmsis_armcc.h)(0x5A0DA24A)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include\system_stm32f10x.h)(0x58257EBC)
+I (.\RTE\Device\STM32F103C8\stm32f10x_conf.h)(0x52FA4230)
+I (.\RTE\_Target_1\RTE_Components.h)(0x5D148620)
+I (..\0inc\inc\stm32f10x_exti.h)(0x5AE46198)
+I (..\0inc\inc\stm32f10x_gpio.h)(0x5AE46198)
+I (..\0inc\inc\stm32f10x_rcc.h)(0x5AE46198)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\StdPeriph_Driver\inc\stm32f10x_spi.h)(0x52FA3F80)
+I (..\0inc\inc\misc.h)(0x5AE46198)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5C7FCE6D)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x599F056C)
+I (..\STM32_USB_CDC_libs\hw_config.h)(0x5AE46196)
+I (..\STM32_USB_CDC_libs\platform_config.h)(0x5AE46196)
+I (..\0inc\inc\stm32f10x_pwr.h)(0x5AE46198)
+I (..\STM32_USB_CDC_libs\usb_type.h)(0x5AE46196)
+I (..\STM32_USB_CDC_libs\usb_conf.h)(0x5D271E5C)
+I (..\STM32_USB_CDC_libs\usb_lib.h)(0x5D259463)
+I (..\STM32_USB_CDC_libs\usb_regs.h)(0x5AE46196)
+I (..\STM32_USB_CDC_libs\usb_def.h)(0x5AE46196)
+I (..\STM32_USB_CDC_libs\usb_core.h)(0x5AE46196)
+I (..\STM32_USB_CDC_libs\usb_init.h)(0x5AE46196)
+I (..\STM32_USB_CDC_libs\usb_sil.h)(0x5AE46196)
+I (..\STM32_USB_CDC_libs\usb_mem.h)(0x5AE46196)
+I (..\STM32_USB_CDC_libs\usb_int.h)(0x5AE46196)
+I (..\STM32_USB_CDC_libs\usb_desc.h)(0x5AF40A8C)
+I (..\STM32_USB_CDC_libs\usb_pwr.h)(0x5AE46196)
+F (..\STM32_USB_CDC_libs\hw_config.c)(0x5C7FAF96)(--c99 -c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections -I ..\0inc -I ..\0inc\inc -I ..\STM32_USB_CDC_libs-I.\RTE\Device\STM32F103C8-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\StdPeriph_Driver\inc-D__UVISION_VERSION="525" -D_RTE_ -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o .\objects\hw_config.o --omf_browse .\objects\hw_config.crf --depend .\objects\hw_config.d)
+I (..\0inc\inc\stm32_it.h)(0x5AE46198)
+I (..\STM32_USB_CDC_libs\platform_config.h)(0x5AE46196)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include\stm32f10x.h)(0x58257EBC)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\core_cm3.h)(0x5A0DA24A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599F056E)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\cmsis_version.h)(0x5A0DA24A)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\cmsis_compiler.h)(0x5A0DA24A)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\cmsis_armcc.h)(0x5A0DA24A)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include\system_stm32f10x.h)(0x58257EBC)
+I (.\RTE\Device\STM32F103C8\stm32f10x_conf.h)(0x52FA4230)
+I (.\RTE\_Target_1\RTE_Components.h)(0x5D148620)
+I (..\0inc\inc\stm32f10x_exti.h)(0x5AE46198)
+I (..\0inc\inc\stm32f10x_gpio.h)(0x5AE46198)
+I (..\0inc\inc\stm32f10x_rcc.h)(0x5AE46198)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\StdPeriph_Driver\inc\stm32f10x_spi.h)(0x52FA3F80)
+I (..\0inc\inc\misc.h)(0x5AE46198)
+I (..\0inc\inc\stm32f10x_pwr.h)(0x5AE46198)
+I (..\STM32_USB_CDC_libs\usb_lib.h)(0x5D259463)
+I (..\STM32_USB_CDC_libs\hw_config.h)(0x5AE46196)
+I (..\STM32_USB_CDC_libs\usb_type.h)(0x5AE46196)
+I (..\STM32_USB_CDC_libs\usb_conf.h)(0x5D271E5C)
+I (..\STM32_USB_CDC_libs\usb_regs.h)(0x5AE46196)
+I (..\STM32_USB_CDC_libs\usb_def.h)(0x5AE46196)
+I (..\STM32_USB_CDC_libs\usb_core.h)(0x5AE46196)
+I (..\STM32_USB_CDC_libs\usb_init.h)(0x5AE46196)
+I (..\STM32_USB_CDC_libs\usb_sil.h)(0x5AE46196)
+I (..\STM32_USB_CDC_libs\usb_mem.h)(0x5AE46196)
+I (..\STM32_USB_CDC_libs\usb_int.h)(0x5AE46196)
+I (..\STM32_USB_CDC_libs\usb_prop.h)(0x5AE46196)
+I (..\STM32_USB_CDC_libs\usb_desc.h)(0x5AF40A8C)
+I (..\STM32_USB_CDC_libs\usb_pwr.h)(0x5AE46196)
+F (..\STM32_USB_CDC_libs\usb_desc.c)(0x5D134BF1)(--c99 -c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections -I ..\0inc -I ..\0inc\inc -I ..\STM32_USB_CDC_libs-I.\RTE\Device\STM32F103C8-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\StdPeriph_Driver\inc-D__UVISION_VERSION="525" -D_RTE_ -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o .\objects\usb_desc.o --omf_browse .\objects\usb_desc.crf --depend .\objects\usb_desc.d)
+I (..\STM32_USB_CDC_libs\usb_lib.h)(0x5D259463)
+I (..\STM32_USB_CDC_libs\hw_config.h)(0x5AE46196)
+I (..\STM32_USB_CDC_libs\platform_config.h)(0x5AE46196)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include\stm32f10x.h)(0x58257EBC)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\core_cm3.h)(0x5A0DA24A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599F056E)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\cmsis_version.h)(0x5A0DA24A)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\cmsis_compiler.h)(0x5A0DA24A)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\cmsis_armcc.h)(0x5A0DA24A)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include\system_stm32f10x.h)(0x58257EBC)
+I (.\RTE\Device\STM32F103C8\stm32f10x_conf.h)(0x52FA4230)
+I (.\RTE\_Target_1\RTE_Components.h)(0x5D148620)
+I (..\0inc\inc\stm32f10x_exti.h)(0x5AE46198)
+I (..\0inc\inc\stm32f10x_gpio.h)(0x5AE46198)
+I (..\0inc\inc\stm32f10x_rcc.h)(0x5AE46198)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\StdPeriph_Driver\inc\stm32f10x_spi.h)(0x52FA3F80)
+I (..\0inc\inc\misc.h)(0x5AE46198)
+I (..\0inc\inc\stm32f10x_pwr.h)(0x5AE46198)
+I (..\STM32_USB_CDC_libs\usb_type.h)(0x5AE46196)
+I (..\STM32_USB_CDC_libs\usb_conf.h)(0x5D271E5C)
+I (..\STM32_USB_CDC_libs\usb_regs.h)(0x5AE46196)
+I (..\STM32_USB_CDC_libs\usb_def.h)(0x5AE46196)
+I (..\STM32_USB_CDC_libs\usb_core.h)(0x5AE46196)
+I (..\STM32_USB_CDC_libs\usb_init.h)(0x5AE46196)
+I (..\STM32_USB_CDC_libs\usb_sil.h)(0x5AE46196)
+I (..\STM32_USB_CDC_libs\usb_mem.h)(0x5AE46196)
+I (..\STM32_USB_CDC_libs\usb_int.h)(0x5AE46196)
+I (..\STM32_USB_CDC_libs\usb_desc.h)(0x5AF40A8C)
+F (..\STM32_USB_CDC_libs\usb_endp.c)(0x5D286BBD)(--c99 -c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections -I ..\0inc -I ..\0inc\inc -I ..\STM32_USB_CDC_libs-I.\RTE\Device\STM32F103C8-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\StdPeriph_Driver\inc-D__UVISION_VERSION="525" -D_RTE_ -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o .\objects\usb_endp.o --omf_browse .\objects\usb_endp.crf --depend .\objects\usb_endp.d)
+I (..\STM32_USB_CDC_libs\usb_lib.h)(0x5D259463)
+I (..\STM32_USB_CDC_libs\hw_config.h)(0x5AE46196)
+I (..\STM32_USB_CDC_libs\platform_config.h)(0x5AE46196)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include\stm32f10x.h)(0x58257EBC)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\core_cm3.h)(0x5A0DA24A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599F056E)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\cmsis_version.h)(0x5A0DA24A)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\cmsis_compiler.h)(0x5A0DA24A)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\cmsis_armcc.h)(0x5A0DA24A)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include\system_stm32f10x.h)(0x58257EBC)
+I (.\RTE\Device\STM32F103C8\stm32f10x_conf.h)(0x52FA4230)
+I (.\RTE\_Target_1\RTE_Components.h)(0x5D148620)
+I (..\0inc\inc\stm32f10x_exti.h)(0x5AE46198)
+I (..\0inc\inc\stm32f10x_gpio.h)(0x5AE46198)
+I (..\0inc\inc\stm32f10x_rcc.h)(0x5AE46198)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\StdPeriph_Driver\inc\stm32f10x_spi.h)(0x52FA3F80)
+I (..\0inc\inc\misc.h)(0x5AE46198)
+I (..\0inc\inc\stm32f10x_pwr.h)(0x5AE46198)
+I (..\STM32_USB_CDC_libs\usb_type.h)(0x5AE46196)
+I (..\STM32_USB_CDC_libs\usb_conf.h)(0x5D271E5C)
+I (..\STM32_USB_CDC_libs\usb_regs.h)(0x5AE46196)
+I (..\STM32_USB_CDC_libs\usb_def.h)(0x5AE46196)
+I (..\STM32_USB_CDC_libs\usb_core.h)(0x5AE46196)
+I (..\STM32_USB_CDC_libs\usb_init.h)(0x5AE46196)
+I (..\STM32_USB_CDC_libs\usb_sil.h)(0x5AE46196)
+I (..\STM32_USB_CDC_libs\usb_mem.h)(0x5AE46196)
+I (..\STM32_USB_CDC_libs\usb_int.h)(0x5AE46196)
+I (..\STM32_USB_CDC_libs\usb_desc.h)(0x5AF40A8C)
+I (..\STM32_USB_CDC_libs\usb_istr.h)(0x5AE46196)
+I (..\STM32_USB_CDC_libs\usb_pwr.h)(0x5AE46196)
+F (..\STM32_USB_CDC_libs\usb_istr.c)(0x5D26D369)(--c99 -c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections -I ..\0inc -I ..\0inc\inc -I ..\STM32_USB_CDC_libs-I.\RTE\Device\STM32F103C8-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\StdPeriph_Driver\inc-D__UVISION_VERSION="525" -D_RTE_ -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o .\objects\usb_istr.o --omf_browse .\objects\usb_istr.crf --depend .\objects\usb_istr.d)
+I (..\STM32_USB_CDC_libs\usb_lib.h)(0x5D259463)
+I (..\STM32_USB_CDC_libs\hw_config.h)(0x5AE46196)
+I (..\STM32_USB_CDC_libs\platform_config.h)(0x5AE46196)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include\stm32f10x.h)(0x58257EBC)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\core_cm3.h)(0x5A0DA24A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599F056E)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\cmsis_version.h)(0x5A0DA24A)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\cmsis_compiler.h)(0x5A0DA24A)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\cmsis_armcc.h)(0x5A0DA24A)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include\system_stm32f10x.h)(0x58257EBC)
+I (.\RTE\Device\STM32F103C8\stm32f10x_conf.h)(0x52FA4230)
+I (.\RTE\_Target_1\RTE_Components.h)(0x5D148620)
+I (..\0inc\inc\stm32f10x_exti.h)(0x5AE46198)
+I (..\0inc\inc\stm32f10x_gpio.h)(0x5AE46198)
+I (..\0inc\inc\stm32f10x_rcc.h)(0x5AE46198)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\StdPeriph_Driver\inc\stm32f10x_spi.h)(0x52FA3F80)
+I (..\0inc\inc\misc.h)(0x5AE46198)
+I (..\0inc\inc\stm32f10x_pwr.h)(0x5AE46198)
+I (..\STM32_USB_CDC_libs\usb_type.h)(0x5AE46196)
+I (..\STM32_USB_CDC_libs\usb_conf.h)(0x5D271E5C)
+I (..\STM32_USB_CDC_libs\usb_regs.h)(0x5AE46196)
+I (..\STM32_USB_CDC_libs\usb_def.h)(0x5AE46196)
+I (..\STM32_USB_CDC_libs\usb_core.h)(0x5AE46196)
+I (..\STM32_USB_CDC_libs\usb_init.h)(0x5AE46196)
+I (..\STM32_USB_CDC_libs\usb_sil.h)(0x5AE46196)
+I (..\STM32_USB_CDC_libs\usb_mem.h)(0x5AE46196)
+I (..\STM32_USB_CDC_libs\usb_int.h)(0x5AE46196)
+I (..\STM32_USB_CDC_libs\usb_prop.h)(0x5AE46196)
+I (..\STM32_USB_CDC_libs\usb_pwr.h)(0x5AE46196)
+I (..\STM32_USB_CDC_libs\usb_istr.h)(0x5AE46196)
+F (..\STM32_USB_CDC_libs\usb_prop.c)(0x5D13479C)(--c99 -c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections -I ..\0inc -I ..\0inc\inc -I ..\STM32_USB_CDC_libs-I.\RTE\Device\STM32F103C8-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\StdPeriph_Driver\inc-D__UVISION_VERSION="525" -D_RTE_ -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o .\objects\usb_prop.o --omf_browse .\objects\usb_prop.crf --depend .\objects\usb_prop.d)
+I (..\STM32_USB_CDC_libs\usb_lib.h)(0x5D259463)
+I (..\STM32_USB_CDC_libs\hw_config.h)(0x5AE46196)
+I (..\STM32_USB_CDC_libs\platform_config.h)(0x5AE46196)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include\stm32f10x.h)(0x58257EBC)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\core_cm3.h)(0x5A0DA24A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599F056E)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\cmsis_version.h)(0x5A0DA24A)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\cmsis_compiler.h)(0x5A0DA24A)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\cmsis_armcc.h)(0x5A0DA24A)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include\system_stm32f10x.h)(0x58257EBC)
+I (.\RTE\Device\STM32F103C8\stm32f10x_conf.h)(0x52FA4230)
+I (.\RTE\_Target_1\RTE_Components.h)(0x5D148620)
+I (..\0inc\inc\stm32f10x_exti.h)(0x5AE46198)
+I (..\0inc\inc\stm32f10x_gpio.h)(0x5AE46198)
+I (..\0inc\inc\stm32f10x_rcc.h)(0x5AE46198)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\StdPeriph_Driver\inc\stm32f10x_spi.h)(0x52FA3F80)
+I (..\0inc\inc\misc.h)(0x5AE46198)
+I (..\0inc\inc\stm32f10x_pwr.h)(0x5AE46198)
+I (..\STM32_USB_CDC_libs\usb_type.h)(0x5AE46196)
+I (..\STM32_USB_CDC_libs\usb_conf.h)(0x5D271E5C)
+I (..\STM32_USB_CDC_libs\usb_regs.h)(0x5AE46196)
+I (..\STM32_USB_CDC_libs\usb_def.h)(0x5AE46196)
+I (..\STM32_USB_CDC_libs\usb_core.h)(0x5AE46196)
+I (..\STM32_USB_CDC_libs\usb_init.h)(0x5AE46196)
+I (..\STM32_USB_CDC_libs\usb_sil.h)(0x5AE46196)
+I (..\STM32_USB_CDC_libs\usb_mem.h)(0x5AE46196)
+I (..\STM32_USB_CDC_libs\usb_int.h)(0x5AE46196)
+I (..\STM32_USB_CDC_libs\usb_prop.h)(0x5AE46196)
+I (..\STM32_USB_CDC_libs\usb_desc.h)(0x5AF40A8C)
+I (..\STM32_USB_CDC_libs\usb_pwr.h)(0x5AE46196)
+F (..\STM32_USB_CDC_libs\usb_pwr.c)(0x5D1343EC)(--c99 -c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections -I ..\0inc -I ..\0inc\inc -I ..\STM32_USB_CDC_libs-I.\RTE\Device\STM32F103C8-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\StdPeriph_Driver\inc-D__UVISION_VERSION="525" -D_RTE_ -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o .\objects\usb_pwr.o --omf_browse .\objects\usb_pwr.crf --depend .\objects\usb_pwr.d)
+I (..\STM32_USB_CDC_libs\usb_lib.h)(0x5D259463)
+I (..\STM32_USB_CDC_libs\hw_config.h)(0x5AE46196)
+I (..\STM32_USB_CDC_libs\platform_config.h)(0x5AE46196)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include\stm32f10x.h)(0x58257EBC)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\core_cm3.h)(0x5A0DA24A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599F056E)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\cmsis_version.h)(0x5A0DA24A)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\cmsis_compiler.h)(0x5A0DA24A)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\cmsis_armcc.h)(0x5A0DA24A)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include\system_stm32f10x.h)(0x58257EBC)
+I (.\RTE\Device\STM32F103C8\stm32f10x_conf.h)(0x52FA4230)
+I (.\RTE\_Target_1\RTE_Components.h)(0x5D148620)
+I (..\0inc\inc\stm32f10x_exti.h)(0x5AE46198)
+I (..\0inc\inc\stm32f10x_gpio.h)(0x5AE46198)
+I (..\0inc\inc\stm32f10x_rcc.h)(0x5AE46198)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\StdPeriph_Driver\inc\stm32f10x_spi.h)(0x52FA3F80)
+I (..\0inc\inc\misc.h)(0x5AE46198)
+I (..\0inc\inc\stm32f10x_pwr.h)(0x5AE46198)
+I (..\STM32_USB_CDC_libs\usb_type.h)(0x5AE46196)
+I (..\STM32_USB_CDC_libs\usb_conf.h)(0x5D271E5C)
+I (..\STM32_USB_CDC_libs\usb_regs.h)(0x5AE46196)
+I (..\STM32_USB_CDC_libs\usb_def.h)(0x5AE46196)
+I (..\STM32_USB_CDC_libs\usb_core.h)(0x5AE46196)
+I (..\STM32_USB_CDC_libs\usb_init.h)(0x5AE46196)
+I (..\STM32_USB_CDC_libs\usb_sil.h)(0x5AE46196)
+I (..\STM32_USB_CDC_libs\usb_mem.h)(0x5AE46196)
+I (..\STM32_USB_CDC_libs\usb_int.h)(0x5AE46196)
+I (..\STM32_USB_CDC_libs\usb_pwr.h)(0x5AE46196)
+F (..\STM32_USB_CDC_libs\usb_core.c)(0x5AE46196)(--c99 -c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections -I ..\0inc -I ..\0inc\inc -I ..\STM32_USB_CDC_libs-I.\RTE\Device\STM32F103C8-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\StdPeriph_Driver\inc-D__UVISION_VERSION="525" -D_RTE_ -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o .\objects\usb_core.o --omf_browse .\objects\usb_core.crf --depend .\objects\usb_core.d)
+I (..\STM32_USB_CDC_libs\usb_lib.h)(0x5D259463)
+I (..\STM32_USB_CDC_libs\hw_config.h)(0x5AE46196)
+I (..\STM32_USB_CDC_libs\platform_config.h)(0x5AE46196)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include\stm32f10x.h)(0x58257EBC)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\core_cm3.h)(0x5A0DA24A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599F056E)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\cmsis_version.h)(0x5A0DA24A)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\cmsis_compiler.h)(0x5A0DA24A)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\cmsis_armcc.h)(0x5A0DA24A)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include\system_stm32f10x.h)(0x58257EBC)
+I (.\RTE\Device\STM32F103C8\stm32f10x_conf.h)(0x52FA4230)
+I (.\RTE\_Target_1\RTE_Components.h)(0x5D148620)
+I (..\0inc\inc\stm32f10x_exti.h)(0x5AE46198)
+I (..\0inc\inc\stm32f10x_gpio.h)(0x5AE46198)
+I (..\0inc\inc\stm32f10x_rcc.h)(0x5AE46198)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\StdPeriph_Driver\inc\stm32f10x_spi.h)(0x52FA3F80)
+I (..\0inc\inc\misc.h)(0x5AE46198)
+I (..\0inc\inc\stm32f10x_pwr.h)(0x5AE46198)
+I (..\STM32_USB_CDC_libs\usb_type.h)(0x5AE46196)
+I (..\STM32_USB_CDC_libs\usb_conf.h)(0x5D271E5C)
+I (..\STM32_USB_CDC_libs\usb_regs.h)(0x5AE46196)
+I (..\STM32_USB_CDC_libs\usb_def.h)(0x5AE46196)
+I (..\STM32_USB_CDC_libs\usb_core.h)(0x5AE46196)
+I (..\STM32_USB_CDC_libs\usb_init.h)(0x5AE46196)
+I (..\STM32_USB_CDC_libs\usb_sil.h)(0x5AE46196)
+I (..\STM32_USB_CDC_libs\usb_mem.h)(0x5AE46196)
+I (..\STM32_USB_CDC_libs\usb_int.h)(0x5AE46196)
+F (..\STM32_USB_CDC_libs\usb_int.c)(0x5AE46196)(--c99 -c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections -I ..\0inc -I ..\0inc\inc -I ..\STM32_USB_CDC_libs-I.\RTE\Device\STM32F103C8-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\StdPeriph_Driver\inc-D__UVISION_VERSION="525" -D_RTE_ -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o .\objects\usb_int.o --omf_browse .\objects\usb_int.crf --depend .\objects\usb_int.d)
+I (..\STM32_USB_CDC_libs\usb_lib.h)(0x5D259463)
+I (..\STM32_USB_CDC_libs\hw_config.h)(0x5AE46196)
+I (..\STM32_USB_CDC_libs\platform_config.h)(0x5AE46196)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include\stm32f10x.h)(0x58257EBC)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\core_cm3.h)(0x5A0DA24A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599F056E)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\cmsis_version.h)(0x5A0DA24A)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\cmsis_compiler.h)(0x5A0DA24A)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\cmsis_armcc.h)(0x5A0DA24A)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include\system_stm32f10x.h)(0x58257EBC)
+I (.\RTE\Device\STM32F103C8\stm32f10x_conf.h)(0x52FA4230)
+I (.\RTE\_Target_1\RTE_Components.h)(0x5D148620)
+I (..\0inc\inc\stm32f10x_exti.h)(0x5AE46198)
+I (..\0inc\inc\stm32f10x_gpio.h)(0x5AE46198)
+I (..\0inc\inc\stm32f10x_rcc.h)(0x5AE46198)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\StdPeriph_Driver\inc\stm32f10x_spi.h)(0x52FA3F80)
+I (..\0inc\inc\misc.h)(0x5AE46198)
+I (..\0inc\inc\stm32f10x_pwr.h)(0x5AE46198)
+I (..\STM32_USB_CDC_libs\usb_type.h)(0x5AE46196)
+I (..\STM32_USB_CDC_libs\usb_conf.h)(0x5D271E5C)
+I (..\STM32_USB_CDC_libs\usb_regs.h)(0x5AE46196)
+I (..\STM32_USB_CDC_libs\usb_def.h)(0x5AE46196)
+I (..\STM32_USB_CDC_libs\usb_core.h)(0x5AE46196)
+I (..\STM32_USB_CDC_libs\usb_init.h)(0x5AE46196)
+I (..\STM32_USB_CDC_libs\usb_sil.h)(0x5AE46196)
+I (..\STM32_USB_CDC_libs\usb_mem.h)(0x5AE46196)
+I (..\STM32_USB_CDC_libs\usb_int.h)(0x5AE46196)
+F (..\STM32_USB_CDC_libs\usb_mem.c)(0x5AE46196)(--c99 -c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections -I ..\0inc -I ..\0inc\inc -I ..\STM32_USB_CDC_libs-I.\RTE\Device\STM32F103C8-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\StdPeriph_Driver\inc-D__UVISION_VERSION="525" -D_RTE_ -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o .\objects\usb_mem.o --omf_browse .\objects\usb_mem.crf --depend .\objects\usb_mem.d)
+I (..\STM32_USB_CDC_libs\usb_lib.h)(0x5D259463)
+I (..\STM32_USB_CDC_libs\hw_config.h)(0x5AE46196)
+I (..\STM32_USB_CDC_libs\platform_config.h)(0x5AE46196)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include\stm32f10x.h)(0x58257EBC)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\core_cm3.h)(0x5A0DA24A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599F056E)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\cmsis_version.h)(0x5A0DA24A)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\cmsis_compiler.h)(0x5A0DA24A)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\cmsis_armcc.h)(0x5A0DA24A)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include\system_stm32f10x.h)(0x58257EBC)
+I (.\RTE\Device\STM32F103C8\stm32f10x_conf.h)(0x52FA4230)
+I (.\RTE\_Target_1\RTE_Components.h)(0x5D148620)
+I (..\0inc\inc\stm32f10x_exti.h)(0x5AE46198)
+I (..\0inc\inc\stm32f10x_gpio.h)(0x5AE46198)
+I (..\0inc\inc\stm32f10x_rcc.h)(0x5AE46198)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\StdPeriph_Driver\inc\stm32f10x_spi.h)(0x52FA3F80)
+I (..\0inc\inc\misc.h)(0x5AE46198)
+I (..\0inc\inc\stm32f10x_pwr.h)(0x5AE46198)
+I (..\STM32_USB_CDC_libs\usb_type.h)(0x5AE46196)
+I (..\STM32_USB_CDC_libs\usb_conf.h)(0x5D271E5C)
+I (..\STM32_USB_CDC_libs\usb_regs.h)(0x5AE46196)
+I (..\STM32_USB_CDC_libs\usb_def.h)(0x5AE46196)
+I (..\STM32_USB_CDC_libs\usb_core.h)(0x5AE46196)
+I (..\STM32_USB_CDC_libs\usb_init.h)(0x5AE46196)
+I (..\STM32_USB_CDC_libs\usb_sil.h)(0x5AE46196)
+I (..\STM32_USB_CDC_libs\usb_mem.h)(0x5AE46196)
+I (..\STM32_USB_CDC_libs\usb_int.h)(0x5AE46196)
+F (..\STM32_USB_CDC_libs\usb_regs.c)(0x5AE46196)(--c99 -c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections -I ..\0inc -I ..\0inc\inc -I ..\STM32_USB_CDC_libs-I.\RTE\Device\STM32F103C8-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\StdPeriph_Driver\inc-D__UVISION_VERSION="525" -D_RTE_ -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o .\objects\usb_regs.o --omf_browse .\objects\usb_regs.crf --depend .\objects\usb_regs.d)
+I (..\STM32_USB_CDC_libs\usb_lib.h)(0x5D259463)
+I (..\STM32_USB_CDC_libs\hw_config.h)(0x5AE46196)
+I (..\STM32_USB_CDC_libs\platform_config.h)(0x5AE46196)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include\stm32f10x.h)(0x58257EBC)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\core_cm3.h)(0x5A0DA24A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599F056E)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\cmsis_version.h)(0x5A0DA24A)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\cmsis_compiler.h)(0x5A0DA24A)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\cmsis_armcc.h)(0x5A0DA24A)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include\system_stm32f10x.h)(0x58257EBC)
+I (.\RTE\Device\STM32F103C8\stm32f10x_conf.h)(0x52FA4230)
+I (.\RTE\_Target_1\RTE_Components.h)(0x5D148620)
+I (..\0inc\inc\stm32f10x_exti.h)(0x5AE46198)
+I (..\0inc\inc\stm32f10x_gpio.h)(0x5AE46198)
+I (..\0inc\inc\stm32f10x_rcc.h)(0x5AE46198)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\StdPeriph_Driver\inc\stm32f10x_spi.h)(0x52FA3F80)
+I (..\0inc\inc\misc.h)(0x5AE46198)
+I (..\0inc\inc\stm32f10x_pwr.h)(0x5AE46198)
+I (..\STM32_USB_CDC_libs\usb_type.h)(0x5AE46196)
+I (..\STM32_USB_CDC_libs\usb_conf.h)(0x5D271E5C)
+I (..\STM32_USB_CDC_libs\usb_regs.h)(0x5AE46196)
+I (..\STM32_USB_CDC_libs\usb_def.h)(0x5AE46196)
+I (..\STM32_USB_CDC_libs\usb_core.h)(0x5AE46196)
+I (..\STM32_USB_CDC_libs\usb_init.h)(0x5AE46196)
+I (..\STM32_USB_CDC_libs\usb_sil.h)(0x5AE46196)
+I (..\STM32_USB_CDC_libs\usb_mem.h)(0x5AE46196)
+I (..\STM32_USB_CDC_libs\usb_int.h)(0x5AE46196)
+F (..\STM32_USB_CDC_libs\usb_sil.c)(0x5AE46196)(--c99 -c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections -I ..\0inc -I ..\0inc\inc -I ..\STM32_USB_CDC_libs-I.\RTE\Device\STM32F103C8-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\StdPeriph_Driver\inc-D__UVISION_VERSION="525" -D_RTE_ -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o .\objects\usb_sil.o --omf_browse .\objects\usb_sil.crf --depend .\objects\usb_sil.d)
+I (..\STM32_USB_CDC_libs\usb_lib.h)(0x5D259463)
+I (..\STM32_USB_CDC_libs\hw_config.h)(0x5AE46196)
+I (..\STM32_USB_CDC_libs\platform_config.h)(0x5AE46196)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include\stm32f10x.h)(0x58257EBC)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\core_cm3.h)(0x5A0DA24A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599F056E)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\cmsis_version.h)(0x5A0DA24A)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\cmsis_compiler.h)(0x5A0DA24A)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\cmsis_armcc.h)(0x5A0DA24A)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include\system_stm32f10x.h)(0x58257EBC)
+I (.\RTE\Device\STM32F103C8\stm32f10x_conf.h)(0x52FA4230)
+I (.\RTE\_Target_1\RTE_Components.h)(0x5D148620)
+I (..\0inc\inc\stm32f10x_exti.h)(0x5AE46198)
+I (..\0inc\inc\stm32f10x_gpio.h)(0x5AE46198)
+I (..\0inc\inc\stm32f10x_rcc.h)(0x5AE46198)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\StdPeriph_Driver\inc\stm32f10x_spi.h)(0x52FA3F80)
+I (..\0inc\inc\misc.h)(0x5AE46198)
+I (..\0inc\inc\stm32f10x_pwr.h)(0x5AE46198)
+I (..\STM32_USB_CDC_libs\usb_type.h)(0x5AE46196)
+I (..\STM32_USB_CDC_libs\usb_conf.h)(0x5D271E5C)
+I (..\STM32_USB_CDC_libs\usb_regs.h)(0x5AE46196)
+I (..\STM32_USB_CDC_libs\usb_def.h)(0x5AE46196)
+I (..\STM32_USB_CDC_libs\usb_core.h)(0x5AE46196)
+I (..\STM32_USB_CDC_libs\usb_init.h)(0x5AE46196)
+I (..\STM32_USB_CDC_libs\usb_sil.h)(0x5AE46196)
+I (..\STM32_USB_CDC_libs\usb_mem.h)(0x5AE46196)
+I (..\STM32_USB_CDC_libs\usb_int.h)(0x5AE46196)
+F (..\STM32_USB_CDC_libs\usb_init.c)(0x5AE46196)(--c99 -c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections -I ..\0inc -I ..\0inc\inc -I ..\STM32_USB_CDC_libs-I.\RTE\Device\STM32F103C8-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\StdPeriph_Driver\inc-D__UVISION_VERSION="525" -D_RTE_ -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o .\objects\usb_init.o --omf_browse .\objects\usb_init.crf --depend .\objects\usb_init.d)
+I (..\STM32_USB_CDC_libs\usb_lib.h)(0x5D259463)
+I (..\STM32_USB_CDC_libs\hw_config.h)(0x5AE46196)
+I (..\STM32_USB_CDC_libs\platform_config.h)(0x5AE46196)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include\stm32f10x.h)(0x58257EBC)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\core_cm3.h)(0x5A0DA24A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599F056E)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\cmsis_version.h)(0x5A0DA24A)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\cmsis_compiler.h)(0x5A0DA24A)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\cmsis_armcc.h)(0x5A0DA24A)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include\system_stm32f10x.h)(0x58257EBC)
+I (.\RTE\Device\STM32F103C8\stm32f10x_conf.h)(0x52FA4230)
+I (.\RTE\_Target_1\RTE_Components.h)(0x5D148620)
+I (..\0inc\inc\stm32f10x_exti.h)(0x5AE46198)
+I (..\0inc\inc\stm32f10x_gpio.h)(0x5AE46198)
+I (..\0inc\inc\stm32f10x_rcc.h)(0x5AE46198)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\StdPeriph_Driver\inc\stm32f10x_spi.h)(0x52FA3F80)
+I (..\0inc\inc\misc.h)(0x5AE46198)
+I (..\0inc\inc\stm32f10x_pwr.h)(0x5AE46198)
+I (..\STM32_USB_CDC_libs\usb_type.h)(0x5AE46196)
+I (..\STM32_USB_CDC_libs\usb_conf.h)(0x5D271E5C)
+I (..\STM32_USB_CDC_libs\usb_regs.h)(0x5AE46196)
+I (..\STM32_USB_CDC_libs\usb_def.h)(0x5AE46196)
+I (..\STM32_USB_CDC_libs\usb_core.h)(0x5AE46196)
+I (..\STM32_USB_CDC_libs\usb_init.h)(0x5AE46196)
+I (..\STM32_USB_CDC_libs\usb_sil.h)(0x5AE46196)
+I (..\STM32_USB_CDC_libs\usb_mem.h)(0x5AE46196)
+I (..\STM32_USB_CDC_libs\usb_int.h)(0x5AE46196)
+F (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\StdPeriph_Driver\src\misc.c)(0x52FA3F80)(--c99 -c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections -I ..\0inc -I ..\0inc\inc -I ..\STM32_USB_CDC_libs-I.\RTE\Device\STM32F103C8-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\StdPeriph_Driver\inc-D__UVISION_VERSION="525" -D_RTE_ -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o .\objects\misc_1.o --omf_browse .\objects\misc_1.crf --depend .\objects\misc_1.d)
+I (..\0inc\inc\misc.h)(0x5AE46198)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include\stm32f10x.h)(0x58257EBC)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\core_cm3.h)(0x5A0DA24A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599F056E)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\cmsis_version.h)(0x5A0DA24A)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\cmsis_compiler.h)(0x5A0DA24A)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\cmsis_armcc.h)(0x5A0DA24A)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include\system_stm32f10x.h)(0x58257EBC)
+I (.\RTE\Device\STM32F103C8\stm32f10x_conf.h)(0x52FA4230)
+I (.\RTE\_Target_1\RTE_Components.h)(0x5D148620)
+I (..\0inc\inc\stm32f10x_exti.h)(0x5AE46198)
+I (..\0inc\inc\stm32f10x_gpio.h)(0x5AE46198)
+I (..\0inc\inc\stm32f10x_rcc.h)(0x5AE46198)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\StdPeriph_Driver\inc\stm32f10x_spi.h)(0x52FA3F80)
+F (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\StdPeriph_Driver\src\stm32f10x_exti.c)(0x52FA3F80)(--c99 -c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections -I ..\0inc -I ..\0inc\inc -I ..\STM32_USB_CDC_libs-I.\RTE\Device\STM32F103C8-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\StdPeriph_Driver\inc-D__UVISION_VERSION="525" -D_RTE_ -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o .\objects\stm32f10x_exti.o --omf_browse .\objects\stm32f10x_exti.crf --depend .\objects\stm32f10x_exti.d)
+I (..\0inc\inc\stm32f10x_exti.h)(0x5AE46198)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include\stm32f10x.h)(0x58257EBC)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\core_cm3.h)(0x5A0DA24A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599F056E)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\cmsis_version.h)(0x5A0DA24A)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\cmsis_compiler.h)(0x5A0DA24A)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\cmsis_armcc.h)(0x5A0DA24A)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include\system_stm32f10x.h)(0x58257EBC)
+I (.\RTE\Device\STM32F103C8\stm32f10x_conf.h)(0x52FA4230)
+I (.\RTE\_Target_1\RTE_Components.h)(0x5D148620)
+I (..\0inc\inc\stm32f10x_gpio.h)(0x5AE46198)
+I (..\0inc\inc\stm32f10x_rcc.h)(0x5AE46198)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\StdPeriph_Driver\inc\stm32f10x_spi.h)(0x52FA3F80)
+I (..\0inc\inc\misc.h)(0x5AE46198)
+F (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\StdPeriph_Driver\src\stm32f10x_gpio.c)(0x52FA3F80)(--c99 -c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections -I ..\0inc -I ..\0inc\inc -I ..\STM32_USB_CDC_libs-I.\RTE\Device\STM32F103C8-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\StdPeriph_Driver\inc-D__UVISION_VERSION="525" -D_RTE_ -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o .\objects\stm32f10x_gpio.o --omf_browse .\objects\stm32f10x_gpio.crf --depend .\objects\stm32f10x_gpio.d)
+I (..\0inc\inc\stm32f10x_gpio.h)(0x5AE46198)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include\stm32f10x.h)(0x58257EBC)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\core_cm3.h)(0x5A0DA24A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599F056E)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\cmsis_version.h)(0x5A0DA24A)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\cmsis_compiler.h)(0x5A0DA24A)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\cmsis_armcc.h)(0x5A0DA24A)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include\system_stm32f10x.h)(0x58257EBC)
+I (.\RTE\Device\STM32F103C8\stm32f10x_conf.h)(0x52FA4230)
+I (.\RTE\_Target_1\RTE_Components.h)(0x5D148620)
+I (..\0inc\inc\stm32f10x_exti.h)(0x5AE46198)
+I (..\0inc\inc\stm32f10x_rcc.h)(0x5AE46198)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\StdPeriph_Driver\inc\stm32f10x_spi.h)(0x52FA3F80)
+I (..\0inc\inc\misc.h)(0x5AE46198)
+F (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\StdPeriph_Driver\src\stm32f10x_rcc.c)(0x52FA3F80)(--c99 -c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections -I ..\0inc -I ..\0inc\inc -I ..\STM32_USB_CDC_libs-I.\RTE\Device\STM32F103C8-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\StdPeriph_Driver\inc-D__UVISION_VERSION="525" -D_RTE_ -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o .\objects\stm32f10x_rcc.o --omf_browse .\objects\stm32f10x_rcc.crf --depend .\objects\stm32f10x_rcc.d)
+I (..\0inc\inc\stm32f10x_rcc.h)(0x5AE46198)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include\stm32f10x.h)(0x58257EBC)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\core_cm3.h)(0x5A0DA24A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599F056E)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\cmsis_version.h)(0x5A0DA24A)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\cmsis_compiler.h)(0x5A0DA24A)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\cmsis_armcc.h)(0x5A0DA24A)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include\system_stm32f10x.h)(0x58257EBC)
+I (.\RTE\Device\STM32F103C8\stm32f10x_conf.h)(0x52FA4230)
+I (.\RTE\_Target_1\RTE_Components.h)(0x5D148620)
+I (..\0inc\inc\stm32f10x_exti.h)(0x5AE46198)
+I (..\0inc\inc\stm32f10x_gpio.h)(0x5AE46198)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\StdPeriph_Driver\inc\stm32f10x_spi.h)(0x52FA3F80)
+I (..\0inc\inc\misc.h)(0x5AE46198)
+F (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\StdPeriph_Driver\src\stm32f10x_spi.c)(0x52FA3F80)(--c99 -c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections -I ..\0inc -I ..\0inc\inc -I ..\STM32_USB_CDC_libs-I.\RTE\Device\STM32F103C8-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\StdPeriph_Driver\inc-D__UVISION_VERSION="525" -D_RTE_ -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o .\objects\stm32f10x_spi.o --omf_browse .\objects\stm32f10x_spi.crf --depend .\objects\stm32f10x_spi.d)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\StdPeriph_Driver\inc\stm32f10x_spi.h)(0x52FA3F80)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include\stm32f10x.h)(0x58257EBC)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\core_cm3.h)(0x5A0DA24A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599F056E)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\cmsis_version.h)(0x5A0DA24A)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\cmsis_compiler.h)(0x5A0DA24A)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\cmsis_armcc.h)(0x5A0DA24A)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include\system_stm32f10x.h)(0x58257EBC)
+I (.\RTE\Device\STM32F103C8\stm32f10x_conf.h)(0x52FA4230)
+I (.\RTE\_Target_1\RTE_Components.h)(0x5D148620)
+I (..\0inc\inc\stm32f10x_exti.h)(0x5AE46198)
+I (..\0inc\inc\stm32f10x_gpio.h)(0x5AE46198)
+I (..\0inc\inc\stm32f10x_rcc.h)(0x5AE46198)
+I (..\0inc\inc\misc.h)(0x5AE46198)
+F (RTE\Device\STM32F103C8\RTE_Device.h)(0x57D287B0)()
+F (RTE\Device\STM32F103C8\startup_stm32f10x_md.s)(0x58257EBC)(--cpu Cortex-M3 --pd "__EVAL SETA 1" -g --apcs=interwork -I.\RTE\Device\STM32F103C8-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\StdPeriph_Driver\inc--pd "__UVISION_VERSION SETA 525" --pd "_RTE_ SETA 1" --pd "STM32F10X_MD SETA 1"--list .\listings\startup_stm32f10x_md.lst --xref -o .\objects\startup_stm32f10x_md.o --depend .\objects\startup_stm32f10x_md.d)
+F (RTE\Device\STM32F103C8\stm32f10x_conf.h)(0x52FA4230)()
+F (RTE\Device\STM32F103C8\system_stm32f10x.c)(0x58257EBC)(--c99 -c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections -I ..\0inc -I ..\0inc\inc -I ..\STM32_USB_CDC_libs-I.\RTE\Device\STM32F103C8-I.\RTE\_Target_1-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\StdPeriph_Driver\inc-D__UVISION_VERSION="525" -D_RTE_ -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER-o .\objects\system_stm32f10x.o --omf_browse .\objects\system_stm32f10x.crf --depend .\objects\system_stm32f10x.d)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include\stm32f10x.h)(0x58257EBC)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\core_cm3.h)(0x5A0DA24A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599F056E)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\cmsis_version.h)(0x5A0DA24A)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\cmsis_compiler.h)(0x5A0DA24A)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\cmsis_armcc.h)(0x5A0DA24A)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include\system_stm32f10x.h)(0x58257EBC)
+I (.\RTE\Device\STM32F103C8\stm32f10x_conf.h)(0x52FA4230)
+I (.\RTE\_Target_1\RTE_Components.h)(0x5D148620)
+I (..\0inc\inc\stm32f10x_exti.h)(0x5AE46198)
+I (..\0inc\inc\stm32f10x_gpio.h)(0x5AE46198)
+I (..\0inc\inc\stm32f10x_rcc.h)(0x5AE46198)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\StdPeriph_Driver\inc\stm32f10x_spi.h)(0x52FA3F80)
+I (..\0inc\inc\misc.h)(0x5AE46198)
